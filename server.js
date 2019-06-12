@@ -1,8 +1,8 @@
 //requires
 const express = require('express')
 const path = require('path')
-const apiRoute = require("./app/routing/apiRoutes")
-const htmlRoute = require("./app/routing/htmlRoutes")
+// const apiRoute = require("./app/routing/apiRoutes")
+// const htmlRoute = require("./app/routing/htmlRoutes")
 const friends = require('./data/friends')
 
 //initialize express instance and use it 
@@ -15,9 +15,9 @@ app.use(express.json())
 htmlRoutes(app, path)
 apiRouteS(app)
 
-app.post('/api/people', function (req, res) {
-    var createPerson = req.body
-    friends.push(createPerson)
+app.post('/api/friends', function (req, res) {
+    var createFriend = req.body
+    friends.push(createFriend)
 })
 
 //server listening
