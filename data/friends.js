@@ -1,5 +1,10 @@
 var friendsArray = [
     {
+        name: 'Ashera',
+        imgurl: '',
+        scores: [1, 1, 1, 2, 1, 1, 3, 1, 4, 3]
+    },
+    {
         name: 'Micaiah',
         imgurl: '',
         scores: [1, 3, 4, 5, 5, 2, 3, 2, 3, 1]
@@ -13,11 +18,6 @@ var friendsArray = [
         name: 'Ike',
         imgurl: '',
         scores: [2, 5, 6, 3, 2, 3, 1, 8, 9, 8]
-    },
-    {
-        name: 'Ashera',
-        imgurl: '',
-        scores: [1, 1, 1, 2, 1, 1, 3, 1, 4, 3]
     },
     {
         name: 'Ashunera',
