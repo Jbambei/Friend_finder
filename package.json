@@ -1,0 +1,22 @@
+{
+  "name": "friend_finder",
+  "version": "1.0.0",
+  "description": "Friend finder web app",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jbambei/Friend_finder.git"
+  },
+  "author": "Joel Bambei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jbambei/Friend_finder/issues"
+  },
+  "homepage": "https://github.com/Jbambei/Friend_finder#readme"
+}
