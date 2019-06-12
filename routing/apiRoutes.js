@@ -26,6 +26,8 @@ module.exports = function(app){
             for(j = 0; j < friends[i].number.length; j++){
                 var absoluteDifference = Math.abs(input.number[j] - friends[i].number[j]); //math.abs is absolute value
                 totalDifference += absoluteDifference
+                console.log(totalDifference)
+                console.log(absoluteDifference)
         }
         if(totalDifference < minDifference) { //this determines whether or not we get the default friend
             defaultFriend = i
